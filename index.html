@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/image.png" alt="Ujjwal Dhiman" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ujjwal Dhiman">Ujjwal Dhiman</h1>
+
+          <p class="title">Web developer</p><br>
+          <p class="title">Competitive programmer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ujjwaldhiman2004@gmail.com" class="contact-link">ujjwaldhiman2004@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91-9690147388" class="contact-link">+91-9690147388</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Dehradun, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          
+          <li class="social-item">
+            <a href="https://github.com/DUjjwal/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ujjwal-dhiman-074a57325/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Video</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hey! I'm Ujjwal Dhiman, an undergraduate with a passion for competitive programming. I also love exploring IoT and have built multiple projects in this domain. Additionally, I have skills in frontend and backend development, allowing me to create full-stack applications.
+
+            Always eager to learn and take on new challenges, I enjoy blending my coding skills with innovative tech solutions.
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Learning frontend and backend development.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Competitive Programming</h4>
+                  
+                <p class="service-item-text">
+                  
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IoT</h4>
+
+                <p class="service-item-text">
+                  Learning IoT by making projects
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+         
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients"></section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Seven Oaks School</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                ICSE - 95.6%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Era Hill University</h4>
+
+              <span>2024 - Present</span>
+
+              <p class="timeline-text">
+                Bachelor of technology in Computer Science and Engineering
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Competitive Programming</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">IoT</h5>
+                <data value="90">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+        <br>
+        <div class="contact-info">
+          <a class="h3" href="https://drive.google.com/file/d/1fX4UjaE91xgvIbRrlQugAgU7dpiaXhcn/view?usp=sharing" class="contact-link">Resume Link</a>
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://todo-list-alpha-gold.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Todo List</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/DUjjwal/backendyt">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">YouTube Backend</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://x.com/UjjwalD08/status/1918554599620825555">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Play Dino Game Using Gestures</h3>
+
+                <p class="project-category">IoT</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://x.com/UjjwalD08/status/1918554599620825555">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CodeForces</h3>
+
+                <p class="project-category">Competitive Programming</p>
+
+              </a>
+            </li>
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+          <h3 class="h3">Week 1 : </h3><br>
+          <p class="about-text">We had a discussion on the topic "Practical for Employability Skills," where our teacher asked us to share our views on how this subject would help us. We also discussed the kind of professionals we aspire to be after completing the course, along with the skills we hope to develop or improve. Our teacher shared some motivational stories to inspire us. Additionally, we took part in an activity where we wrote about where we envision ourselves in two years—focusing on our knowledge, skills, and attitude.</p>
+          <h3 class="h3">Week 2 : </h3><br>
+          <p class="about-text">In today’s session, we were divided into groups of 6 or 7 members and seated in circles. We discussed SWOC analysis—a framework for evaluating Strengths, Weaknesses, Opportunities, and Challenges. After understanding the concept, each group member shared their personal SWOC analysis with the team. We also named our group—ours was "Essentialist" Later, as part of an activity, we were assigned to record a group video discussing a selected topic collaboratively.</p>
+          <h3 class="h3">Week 3 : </h3><br>
+          <p class="about-text">During this session, we reconvened in our previous groups, sitting in a circular formation. The focus of today's discussion was the Johari Window—a psychological model aimed at enhancing self-awareness and interpersonal understanding. We learned that it categorizes self-perception into four key areas: the open self (known to self and others), the blind self (unknown to self but seen by others), the hidden self (known only to oneself), and the unknown self (traits undiscovered by both self and others).</p>
+          <h3 class="h3">Week 4 : </h3><br>
+          <p class="about-text">During today's class, we delved deeper into "Presentation Skills," exploring the VAK learning styles—Visual, Auditory, and Kinesthetic (hands-on learning). These styles help us understand different ways people absorb and retain information.
+
+            We also examined essential components of impactful presentations, including:
+            
+            Clarity and conciseness in content
+            
+            Storytelling techniques to engage listeners
+            
+            Delivery methods to maintain audience interest
+            
+            As a practical exercise, we wrote a one-page story on "The Role of Technology in Business" to apply these concepts.</p>
+            <h3 class="h3">Personal Profiling: </h3><br>
+          <p class="about-text"><span class="h3">Q1: Career Objective</span> <br>
+            "I aspire to become a skilled Software Engineer specializing in competitive programming, IoT, and full-stack development. My goal is to build efficient, scalable systems and solve complex problems through clean code and innovative solutions."
+            <br>
+            <span class="h3">Q2: Why Engineering?</span><br>
+            "Engineering lets me turn logical thinking into tangible solutions—whether optimizing algorithms for speed, designing IoT prototypes, or crafting user-friendly web apps. The thrill of creating functional systems drives me."
+            
+            <span class="h3">Q3: Projects & Internships</span><br>
+            Gesture-Controlled Chrome Dino Game: Used sensors to replace keyboard inputs.
+            
+            YouTube Backend Clone: Built APIs and database structures mimicking YouTube.
+            
+            To-Do List App: Full-stack project with CRUD operations.
+            "These projects sharpened my skills in problem-solving, debugging, and end-to-end development."
+            <br>
+            <span class="h3">Q4: Significant Achievement</span><br>
+            "Winning a hackathon for my Chrome Dino game prototype. It proved that iterative testing and user feedback lead to success."
+            <br>
+            <span class="h3">Q5: Key Failure & Learning</span><br>
+            "Once, I rushed into a competitive programming contest without practicing enough DP problems. Now, I methodically study DSA patterns before competing."<br>
+            <br>
+            <span class="h3">Q6: Strengths & Examples</span><br>
+            Competitive Coding: Consistently rank in the top 20% on LeetCode/CodeChef.
+            
+            Adaptability: Learned IoT frameworks (Arduino, Raspberry Pi) for the Dino game.
+            <br>
+            <span class="h3">Q7: Weaknesses & Improvement</span><br>
+            "I sometimes over-engineer solutions (e.g., adding unnecessary features to my to-do app). Now, I define scope limits upfront."
+            <br>
+            <span class="h3">Q8: Toughest Challenge & Overcoming It</span><br>
+            *"Balancing coursework with ICPC prep. I fixed it by scheduling focused 2-hour daily coding sessions."*
+            <br>
+            <span class="h3">Q9: Interests Beyond Academics</span><br>
+            Extracurricular: Competitive programming contests, tech blogs on web dev.
+            
+            Sports: Table tennis, jogging.
+            
+            Other: IoT tinkering, watching system design breakdowns.
+            <br>
+            <span class="h3">Q10: Passionate About</span><br>
+            "Algorithm optimization, IoT’s real-world applications, and building seamless web experiences."
+            <br>
+            <span class="h3">Q11: Describe Yourself in 5 Lines</span><br>
+            "A logic-driven coder who loves efficiency."
+            
+            "Passionate about CP, IoT, and clean code."
+            
+            "Always learning—currently mastering advanced DSA."
+            
+            "Team player who thrives in hackathons."
+            
+            "Believes in ‘build, break, repeat’."
+            <br>
+            <span class="h3">Q12: Ideal Team Members</span><br>
+            "Coders who debate approaches (like my ICPC team) and share my curiosity for tech, from embedded systems to React hooks."
+            <br>
+            <span class="h3">Q13: Least Preferred Colleagues & Handling a Difficult Senior</span><br>
+            "I struggle with rigid thinkers. With a difficult senior, I’d focus on deliverables and seek mentorship from peers."
+            <br>
+            <span class="h3">Q14: Expectations from First Job (Prioritized)</span><br>
+            "Opportunities to work on scalable systems or IoT."
+            
+            "Collaboration with sharp engineers."
+            
+            "Mentorship in backend/embedded development."
+            
+            "Fair compensation."
+            <br>
+            <span class="h3">Q15: Recent Dissatisfaction</span><br>
+            "I neglected learning Docker for my web projects. Now, I’m containerizing my YouTube clone."
+            <br>
+            <span class="h3">Q16: Verbal Communication (3/5) & Improvement</span><br>
+            "Practicing by explaining my projects (e.g., how the Dino game’s gesture logic works) to juniors."
+            <br>
+            <span class="h3">Q17: Role Model – Gennady Korotkevich</span><br>
+            "His ICPC dominance inspires my competitive coding discipline. I emulate his structured practice routines."
+            <br>
+            <span class="h3">Q18: Friends & Their Impact</span><br>
+            "My ICPC teammates push me to solve harder problems, and we debug projects like the to-do app together."
+            <br>
+            <span class="h3">Q19: Leadership Qualities & Example</span><br>
+            Decisiveness: Led a team to win a web dev hackathon by assigning roles (frontend/backend) based on strengths.
+            
+            Accountability: Tracked progress daily for the YouTube clone project.
+            <br>
+            <span class="h3">Q20: Final Self-Introduction</span><br>
+            *"I’m a 2nd-year CSE student passionate about competitive programming, IoT, and full-stack development. I build projects like gesture-controlled games and web apps, and I thrive in collaborative, problem-solving environments. My mantra: ‘Code, test, optimize, repeat.’"*</p>
+        </section>
+        <h3 class="h3">Videos: </h3><br>
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="video">
+
+        <header>
+          <h2 class="h2 article-title">Video</h2>
+        </header>
+
+        
+
+        <section class="contact-form">
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/1isTeAvUcPOuelXYQzUpsz9tFMflk2uWN/view?usp=sharing">
+  
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+  
+                  <img src="./assets/images/ps.jpg" alt="orizon" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Public Speaking</h3>
+  
+  
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/1VaLDOkHHkarYXheSj8FopqzBrz0sLLAS/view?usp=sharing">
+  
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+  
+                  <img src="./assets/images/gd.png" alt="orizon" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Group Discussion</h3>
+  
+                
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+  
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+  
+                  <img src="./assets/images/pres.svg" alt="orizon" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Presentation</h3>
+  
+                
+              </a>
+            </li>
+          </ul>
+          
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
